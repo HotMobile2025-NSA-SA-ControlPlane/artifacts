@@ -41,15 +41,7 @@ the raw results files in the repository. Artifacts and Info
 
 ### Instructions on how to validate these artifacts
 1. Clone this repo: ``git clone``
-2. Run ``chmod +x setup-venv.sh``
-3. Run ``./setup-venv.sh``
-4. Run ``source /venv/bin/activate``
-5. Run ``pip install -r requirements.txt``
-6. Navigate to each Section folder and follow the README file
-
-NOTE: \
-If ``SHOW_PLOT_FLAG = True``, the figure will be display\
-If ``SHOW_PLOT_FLAG = False``, the figure will be saved in ``Finals_Plots`` folder in the parent directory.
+2. Run ``pip install -r requirements.txt``
 
 ---
 
