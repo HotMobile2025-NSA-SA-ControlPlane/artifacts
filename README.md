@@ -30,18 +30,10 @@ the raw results files in the repository. Artifacts and Info
 
 ---
 
-
-### Paper Structure to Folder Structure
- 
-|                Content in Paper                |                                                    Folder in Repo.                                                     | Section Description                                                                          |
-|:----------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------:|----------------------------------------------------------------------------------------------|
-|          Section 4 (Figures 5 - 8)             | [RRC RACH and Others](https://github.umn.edu/fezeu001/5G-Mid-Band/blob/main/Sec4-Mid-Band-PhyPerformance/README.md)    | PHY DL Throughput Performance.                                                               |
-|	   Section 5 (Figures 11)		 | [PDU PDN]()															  |												 |
----
-
 ### Instructions on how to validate these artifacts
 1. Clone this repo: ``git clone``
 2. Run ``pip install -r requirements.txt``
+3. To generate a plot go into the specific folder and run ``python plot-*.py`` to generate
 
 ---
 
